@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+.attribution {
+  font-size: 11px;
+  justify-content: space-between;
+  display: flex;
+}
+.attribution a {
+  color: hsl(178, 100%, 50%);
+  font-size: 20px;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: Outfit;
+  padding: 20px;
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .p {
+  font-size: 18px;
+}
+img {
+  background-color: hsl(216, 50%, 16%);
+  width: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+section {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  width: 260px;
+  padding: 15px;
+}
+p {
+  color: hsl(220, 15%, 55%);
+  text-align: left;
+  font-size: 15px;
+  margin: 0;
+}
+h1 {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+h1:hover,
+.avatar1:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.avatar img {
+  background-color: white;
+  color: white;
+  width: 20%;
+  border-color: white;
+  padding: 0.7px;
+  margin: 0px;
+}
+.avatar {
+  justify-content: left;
+  display: flex;
+  color: white;
+  cursor: pointer;
+}
+.avatar p {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5px;
+}
+hr {
+  opacity: 10%;
+  margin: 15px;
+}
+
+#icon {
+  display: none;
+  color: white;
+  position: absolute;
+  top: 50%; /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-50%, -50%);
+}
+
+#image-container {
+  position: relative;
+}
+
+#image:hover + #icon {
+  display: block;
+}
