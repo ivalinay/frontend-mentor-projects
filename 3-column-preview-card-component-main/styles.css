@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: Lexend Deca;
+  font-size: 15px;
+}
+
+h1 {
+  font-family: "Big Shoulders Display";
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.row {
+  display: flex;
+  height: 360px;
+  width: 700px;
+}
+
+#Column1 {
+  background-color: #ff9900;
+}
+#Column2 {
+  background-color: #008080;
+}
+#Column3 {
+  background-color: #004d4d;
+}
+
+.column {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.button {
+  align-self: flex-start;
+  margin-top: auto;
+  padding: 10px 25px;
+  border-radius: 150px;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid white;
+}
+img {
+  width: 60px;
+}
+
+#column1button {
+  color: #ff9900;
+}
+
+#column1button:hover {
+  background-color: #ff9900;
+  color: white;
+}
+
+#column2button {
+  color: #008080;
+}
+#column2button:hover {
+  background-color: #008080;
+  color: white;
+}
+#column3button {
+  color: #004d4d;
+}
+#column3button:hover {
+  background-color: #004d4d;
+  color: white;
+}
