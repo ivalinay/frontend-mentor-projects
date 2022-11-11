@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+@media screen (min-width: 375px) and (max-width: 1440px);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.card {
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+  width: 730px;
+  height: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.info {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: inter;
+  font-size: 25px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: inter;
+  font-size: 14px;
+}
+.numbers {
+  font-family: inter;
+  display: flex;
+  justify-content: space-between;
+}
+
+.metrics {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header {
+  display: inline;
+}
+
+#insights {
+  color: hsl(277, 64%, 61%);
+}
+
+.number {
+  font-weight: bold;
+  color: white;
+}
+.svetlio {
+  font-family: hsl(0, 0%, 100%, 0.75);
+  font-size: 8px;
+}
+.image {
+  width: 50%;
+  background-color: #4d0066;
+}
+
+img {
+  width: 100%;
+  object-fit: scale-down;
+  opacity: 0.4;
+}
