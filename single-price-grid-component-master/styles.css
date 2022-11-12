@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Karla:ital,wght@1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Karla;
+  background-color: hsl(204, 43%, 93%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 450px;
+  border-radius: 5px;
+  line-height: 20px;
+}
+.svetlio {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  line-height: 20px;
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  border: 10px;
+  border-radius: 5px;
+}
+.subscription {
+  width: 50%;
+  background-color: #009999;
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subscription h1 {
+  font-size: 15px;
+}
+.whyus h1 {
+  font-size: 15px;
+  margin: 0px 0px 10px 0px;
+}
+.whyus p {
+  color: lightgray;
+}
+.whyus {
+  background-color: #00b3b3;
+  width: 50%;
+  color: white;
+}
+.title {
+  height: 50%;
+  line-height: 30px;
+}
+.title h2 {
+  color: hsl(71, 73%, 54%);
+  margin: 30px 0px 10px 0px;
+  font-size: 18px;
+}
+.title h1 {
+  color: hsl(179, 62%, 43%);
+}
+.title p {
+  color: gray;
+}
+
+.title,
+.subscription,
+.whyus {
+  padding: 30px;
+}
+.price {
+  display: flex;
+}
+
+.price p {
+  margin-left: 7px;
+  color: lightgray;
+  margin-right: 3px;
+}
+.price h1 {
+  font-size: 25px;
+}
+@media only screen and (max-width: 650px) {
+  .card {
+    flex-direction: column;
+    height: 900px;
+    width: 400px;
+    align-items: stretch;
+  }
+  .title {
+    height: 33%;
+  }
+  .svetlio {
+    flex-direction: column;
+    width: 100%;
+    height: 67%;
+  }
+  .subscription {
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .whyus {
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
