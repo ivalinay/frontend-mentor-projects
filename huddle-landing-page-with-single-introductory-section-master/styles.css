@@ -1,0 +1,138 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Open+Sans:ital@1&display=swap");
+
+body {
+  font-family: Opens Sans sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-weight: 600;
+  color: white;
+}
+.main-body {
+  box-sizing: border-box;
+  margin: 8vh auto;
+  width: max(300px, 60vw);
+}
+.logo-image {
+  max-width: 12rem;
+  padding: 0 0 3rem 0;
+}
+.parent-block {
+  display: grid;
+  box-sizing: border-box;
+  grid-template-areas: "one" "two";
+}
+.image-block {
+  grid-area: one;
+}
+.main-image {
+  max-width: 100%;
+}
+.text-block {
+  text-align: center;
+  grid-area: two;
+}
+h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1.5rem;
+}
+button {
+  display: block;
+  width: 12rem;
+  margin: 30px auto 80px auto;
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+  border-radius: 50px;
+  border-style: none;
+  padding: 10px 0;
+}
+.icons {
+  text-align: center;
+}
+.fa-brands {
+  padding: 20px;
+}
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+  cursor: pointer;
+}
+.fa-brands:hover {
+  color: hsl(300, 69%, 71%);
+  cursor: pointer;
+}
+
+/*Responsiveness Section*/
+@media (min-width: 600px) {
+  body {
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .logo-image {
+    max-width: 15rem;
+  }
+  .main-body {
+    width: 90vw;
+  }
+  .parent-block {
+    gap: 2rem;
+    grid-template-areas: "one one two";
+  }
+  .text-block {
+    text-align: left;
+  }
+}
+button {
+  margin: 30px auto 80px 0;
+}
+.icons {
+  text-align: right;
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .logo-image {
+    max-width: 15rem;
+  }
+  .main-body {
+    width: 85vw;
+  }
+  .main-body {
+    width: 85vw;
+  }
+  .parent-block {
+    gap: 3rem;
+    grid-template-areas: "one one two";
+  }
+  .text-block {
+    text-align: left;
+  }
+  button {
+    margin: 30px auto 80px 0;
+    padding: 15px 0;
+  }
+  .icons {
+    text-align: right;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  p,
+  button {
+    font-size: 1.2rem;
+  }
+}
