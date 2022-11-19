@@ -1,0 +1,10 @@
+header {
+  display: flex;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+header nav ul {
+  display: flex;
+}
+a.navigation {
+  color: rgb(0, 153, 0);
+}

@@ -1,0 +1,21 @@
+body {
+  background-color: lightgray;
+}
+ul,
+li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+li {
+  border: 6px solid black;
+}
+.gallery ul {
+  justify-content: space-between;
+}
+img {
+  width: 200px;
+  padding: 15px 8px;
+  align-self: center;
+}
