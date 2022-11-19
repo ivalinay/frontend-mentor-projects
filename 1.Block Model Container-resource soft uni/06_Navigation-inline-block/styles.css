@@ -1,0 +1,27 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+header {
+  display: flex;
+}
+nav {
+  padding-bottom: 20px;
+  display: inline-block;
+}
+a {
+  color: green;
+  padding-left: 45px;
+  text-decoration: none;
+  text-align: right;
+  display: inline-block;
+}
+ul {
+  align-self: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  display: inline-block;
+}
