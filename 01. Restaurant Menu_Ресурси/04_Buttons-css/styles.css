@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(211, 211, 211);
+}
+
+.button {
+  border-radius: 20px;
+  padding: 5px 8px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: solid 1px rgb(51, 51, 51);
+  outline: none;
+}
+
+a.button {
+  padding: 4px 6px;
+}
+.normal-buttons-ctr .button {
+  background-color: rgb(211, 211, 211);
+}
+
+.filled-buttons-ctr .button,
+.icon-buttons-ctr .button {
+  background-color: rgb(51, 51, 51);
+  border: 1px solid rgb(51, 51, 51);
+  color: white;
+}
+
+i {
+  margin-right: 5px;
+}
+.hover:hover {
+  background: green;
+  border: 1px solid green;
+}
+
+.hover{
+  color: rgb(51, 51, 51);
+}
+
+.button.fill.hover{
+  color: rgb(251, 251, 251);
+}
